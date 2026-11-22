@@ -1,14 +1,6 @@
 const LINKEDIN = "https://www.linkedin.com/in/dwivediapoorv/";
 const INSTAGRAM = "https://www.instagram.com/dwivedi.apoorv/";
 
-const nav = [
-  { label: "About", href: "#about" },
-  { label: "What I do", href: "#what-i-do" },
-  { label: "Process", href: "#process" },
-  { label: "Teaching", href: "#teaching" },
-  { label: "Contact", href: "#contact" },
-];
-
 const offerings = [
   {
     title: "Shopify Development",
@@ -84,20 +76,6 @@ function Heading({ children }: { children: React.ReactNode }) {
 export default function Home() {
   return (
     <>
-      <nav className="sticky top-0 z-10 border-b border-zinc-200 bg-background/80 backdrop-blur dark:border-zinc-800">
-        <div className="mx-auto flex max-w-4xl items-center justify-center px-4 py-4 sm:px-6">
-          <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-zinc-600 sm:gap-x-8 dark:text-zinc-400">
-            {nav.map((n) => (
-              <li key={n.href}>
-                <a href={n.href} className="transition-colors hover:text-foreground">
-                  {n.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-
       <main id="top" className="mx-auto w-full max-w-4xl px-6">
         {/* Hero */}
         <section className="py-20 sm:py-28">
