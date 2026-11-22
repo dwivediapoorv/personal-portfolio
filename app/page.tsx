@@ -51,6 +51,29 @@ const steps = [
   },
 ];
 
+const journey = [
+  {
+    year: "2012",
+    title: "Co-founded",
+    org: "Softcrayons Tech Solutions Pvt Ltd",
+  },
+  {
+    year: "2013 – 2015",
+    title: "Software Engineer",
+    org: "HCL Technologies",
+  },
+  {
+    year: "2015 – 2023",
+    title: "Freelance Consultant",
+    org: "Independent",
+  },
+  {
+    year: "2023",
+    title: "Joined as Consulting CTO",
+    org: "DigiRocket Technologies",
+  },
+];
+
 const stack = [
   "Shopify",
   "Liquid",
@@ -179,6 +202,21 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Journey */}
+        <section id="journey" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
+          <Heading>My journey</Heading>
+          <ol className="mt-10 border-l border-zinc-300 dark:border-zinc-700">
+            {journey.map((j) => (
+              <li key={j.year} className="relative pb-10 pl-8 last:pb-0">
+                <span className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-foreground" />
+                <p className="font-mono text-sm text-zinc-500">{j.year}</p>
+                <h3 className="mt-1 text-lg font-semibold">{j.title}</h3>
+                <p className="text-zinc-600 dark:text-zinc-400">{j.org}</p>
+              </li>
+            ))}
+          </ol>
         </section>
 
         {/* Teaching */}
