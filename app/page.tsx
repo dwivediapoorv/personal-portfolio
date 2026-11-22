@@ -85,15 +85,8 @@ export default function Home() {
   return (
     <>
       <nav className="sticky top-0 z-10 border-b border-zinc-200 bg-background/80 backdrop-blur dark:border-zinc-800">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <a
-            href="#top"
-            aria-label="Apoorv Dwivedi, back to top"
-            className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground text-sm font-bold tracking-tight text-background"
-          >
-            AD
-          </a>
-          <ul className="hidden gap-6 text-sm text-zinc-600 sm:flex dark:text-zinc-400">
+        <div className="mx-auto flex max-w-4xl items-center justify-center px-4 py-4 sm:px-6">
+          <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-zinc-600 sm:gap-x-8 dark:text-zinc-400">
             {nav.map((n) => (
               <li key={n.href}>
                 <a href={n.href} className="transition-colors hover:text-foreground">
