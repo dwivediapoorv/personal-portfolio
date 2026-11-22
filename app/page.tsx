@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <main className="mx-auto w-full max-w-3xl px-6 py-20 sm:py-28">
       <header>
-        <p className="font-mono text-sm text-zinc-500">Kanpur, India</p>
+        <p className="font-mono text-sm text-zinc-500">Noida, India</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-          Apoorv
+          Apoorv Dwivedi
         </h1>
         <p className="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
           Freelance web developer and digital marketer. I build fast Shopify
@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       <footer className="mt-24 border-t border-zinc-200 pt-6 text-sm text-zinc-500 dark:border-zinc-800">
-        © 2026 Apoorv
+        © 2026 Apoorv Dwivedi
       </footer>
     </main>
   );
