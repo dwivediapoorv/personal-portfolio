@@ -15,8 +15,9 @@ export default function Home() {
           Apoorv Dwivedi
         </h1>
         <p className="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          Freelance web developer and digital marketer. I build fast Shopify
-          and web experiences, then help them rank and sell.
+          Freelance web developer, digital marketer and educator. I build fast
+          Shopify and web experiences, help them rank and sell, and teach
+          what I know.
         </p>
         <div className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
           <a
