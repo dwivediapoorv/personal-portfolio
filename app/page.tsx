@@ -86,8 +86,12 @@ export default function Home() {
     <>
       <nav className="sticky top-0 z-10 border-b border-zinc-200 bg-background/80 backdrop-blur dark:border-zinc-800">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <a href="#top" className="font-semibold tracking-tight">
-            Apoorv Dwivedi
+          <a
+            href="#top"
+            aria-label="Apoorv Dwivedi, back to top"
+            className="flex h-10 w-10 items-center justify-center rounded-xl bg-foreground text-sm font-bold tracking-tight text-background"
+          >
+            AD
           </a>
           <ul className="hidden gap-6 text-sm text-zinc-600 sm:flex dark:text-zinc-400">
             {nav.map((n) => (
