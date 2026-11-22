@@ -75,7 +75,7 @@ const stack = [
 
 function Heading({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-500">
+    <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
       {children}
     </h2>
   );
@@ -133,7 +133,7 @@ export default function Home() {
         <section id="about" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
           <Heading>About</Heading>
           <div className="mt-6 grid gap-8 sm:grid-cols-5">
-            <p className="text-2xl font-semibold leading-snug tracking-tight sm:col-span-2">
+            <p className="text-xl font-medium leading-snug sm:col-span-2">
               Developer by training, marketer by obsession.
             </p>
             <div className="space-y-4 leading-7 text-zinc-600 sm:col-span-3 dark:text-zinc-400">
@@ -156,7 +156,7 @@ export default function Home() {
         {/* Services */}
         <section id="services" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
           <Heading>Services</Heading>
-          <p className="mt-6 max-w-2xl text-2xl font-semibold leading-snug tracking-tight">
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Everything between &ldquo;I have an idea&rdquo; and &ldquo;it is
             making sales.&rdquo;
           </p>
@@ -210,7 +210,7 @@ export default function Home() {
         <section id="teaching" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
           <Heading>Teaching</Heading>
           <div className="mt-6 grid gap-8 sm:grid-cols-5">
-            <p className="text-2xl font-semibold leading-snug tracking-tight sm:col-span-2">
+            <p className="text-xl font-medium leading-snug sm:col-span-2">
               Learning sticks when it is practical.
             </p>
             <p className="leading-7 text-zinc-600 sm:col-span-3 dark:text-zinc-400">
