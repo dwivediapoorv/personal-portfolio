@@ -18,6 +18,16 @@ export default function Home() {
           Freelance web developer and digital marketer. I build fast Shopify
           and web experiences, then help them rank and sell.
         </p>
+        <div className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
+          <a
+            href="https://www.linkedin.com/in/dwivediapoorv/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-foreground px-5 py-2.5 text-background transition-opacity hover:opacity-80"
+          >
+            LinkedIn
+          </a>
+        </div>
       </header>
 
       <section className="mt-20">
