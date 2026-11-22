@@ -3,13 +3,13 @@ const INSTAGRAM = "https://www.instagram.com/dwivedi.apoorv/";
 
 const nav = [
   { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
+  { label: "What I do", href: "#what-i-do" },
   { label: "Process", href: "#process" },
   { label: "Teaching", href: "#teaching" },
   { label: "Contact", href: "#contact" },
 ];
 
-const services = [
+const offerings = [
   {
     title: "Shopify Development",
     body: "Custom themes, Online Store 2.0, Liquid, metafields and app blocks, built fast and easy for your team to manage.",
@@ -121,7 +121,7 @@ export default function Home() {
               Get in touch
             </a>
             <a
-              href="#services"
+              href="#what-i-do"
               className="rounded-full border border-zinc-300 px-5 py-2.5 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:hover:bg-zinc-900"
             >
               See what I do
@@ -153,15 +153,15 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services */}
-        <section id="services" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
-          <Heading>Services</Heading>
+        {/* What I do */}
+        <section id="what-i-do" className="scroll-mt-20 border-t border-zinc-200 py-16 dark:border-zinc-800">
+          <Heading>What I do</Heading>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Everything between &ldquo;I have an idea&rdquo; and &ldquo;it is
             making sales.&rdquo;
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
+            {offerings.map((s) => (
               <div
                 key={s.title}
                 className="rounded-2xl border border-zinc-200 p-6 transition-colors hover:border-zinc-400 dark:border-zinc-800 dark:hover:border-zinc-600"
