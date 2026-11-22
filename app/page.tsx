@@ -18,14 +18,6 @@ export default function Home() {
           Freelance web developer and digital marketer. I build fast Shopify
           and web experiences, then help them rank and sell.
         </p>
-        <div className="mt-8 flex flex-wrap gap-3 text-sm font-medium">
-          <a
-            href="https://rareinput.com"
-            className="rounded-full bg-foreground px-5 py-2.5 text-background transition-opacity hover:opacity-80"
-          >
-            Work with me
-          </a>
-        </div>
       </header>
 
       <section className="mt-20">
@@ -45,11 +37,7 @@ export default function Home() {
       </section>
 
       <footer className="mt-24 border-t border-zinc-200 pt-6 text-sm text-zinc-500 dark:border-zinc-800">
-        © 2026 Apoorv. Get in touch via{" "}
-        <a className="underline" href="https://rareinput.com">
-          rareinput.com
-        </a>
-        .
+        © 2026 Apoorv
       </footer>
     </main>
   );
