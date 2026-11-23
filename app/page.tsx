@@ -82,9 +82,6 @@ const stack = [
   "Laravel",
   "WordPress",
   "Flutter",
-  "Databases",
-  "Chrome Extensions",
-  "AI Automation",
 ];
 
 function Heading({ children }: { children: React.ReactNode }) {
