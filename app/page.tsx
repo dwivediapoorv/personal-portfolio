@@ -7,12 +7,8 @@ const offerings = [
     body: "Custom themes, Online Store 2.0, Liquid, metafields and app blocks, built fast and easy for your team to manage.",
   },
   {
-    title: "SEO",
-    body: "Technical and on-page SEO that gets your store and content found by people ready to buy.",
-  },
-  {
-    title: "Google Ads",
-    body: "Search and shopping campaigns set up around your margins and tracked to real revenue.",
+    title: "SEO & Google Ads",
+    body: "Technical and on-page SEO plus search and shopping campaigns, so the right people find you and every rupee of ad spend is tracked to real revenue.",
   },
   {
     title: "Production-Ready Apps",
@@ -87,8 +83,7 @@ const stack = [
   "WordPress",
   "Flutter",
   "Databases",
-  "SEO",
-  "Google Ads",
+  "SEO & Google Ads",
   "Chrome Extensions",
   "AI Automation",
 ];
