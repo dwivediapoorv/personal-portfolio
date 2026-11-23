@@ -86,6 +86,7 @@ const stack = [
   "Laravel",
   "WordPress",
   "Flutter",
+  "Databases",
   "SEO",
   "Google Ads",
   "Chrome Extensions",
