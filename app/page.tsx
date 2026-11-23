@@ -15,8 +15,12 @@ const offerings = [
     body: "Search and shopping campaigns set up around your margins and tracked to real revenue.",
   },
   {
-    title: "Web Applications",
-    body: "Laravel and Next.js apps, dashboards and internal tools, from first idea to production.",
+    title: "Production-Ready Apps",
+    body: "Laravel and Next.js apps built to be reliable, secure and ready for real users, from first idea to launch.",
+  },
+  {
+    title: "Team Productivity Apps",
+    body: "Internal tools, dashboards and workflows that save your team time and keep everyone on the same page.",
   },
   {
     title: "WordPress & Content Sites",
