@@ -82,6 +82,8 @@ const stack = [
   "Laravel",
   "WordPress",
   "Flutter",
+  "Supabase",
+  "MySQL",
 ];
 
 function Heading({ children }: { children: React.ReactNode }) {
@@ -171,7 +173,7 @@ export default function Home() {
 
         {/* Stack */}
         <section className="border-t border-zinc-200 py-16 dark:border-zinc-800">
-          <Heading>Tools I work with</Heading>
+          <Heading>Tech stack</Heading>
           <ul className="mt-6 flex flex-wrap gap-2">
             {stack.map((t) => (
               <li
