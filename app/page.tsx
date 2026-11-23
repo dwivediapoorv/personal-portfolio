@@ -83,7 +83,6 @@ const stack = [
   "WordPress",
   "Flutter",
   "Databases",
-  "SEO & Google Ads",
   "Chrome Extensions",
   "AI Automation",
 ];
